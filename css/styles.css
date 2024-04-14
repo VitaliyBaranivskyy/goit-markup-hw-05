@@ -797,6 +797,7 @@ img {
   background-color: #404bbf;
   border: 1px solid #404bbf;
   fill: #f4f4fd;
+  border: none;
 }
 .span {
 }
