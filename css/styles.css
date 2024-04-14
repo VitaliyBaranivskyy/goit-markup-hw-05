@@ -522,6 +522,9 @@ img {
 }
 
 /*-----------------Foter Subscribe----------------- */
+.navischo {
+  display: flex;
+}
 
 .footer-subscribe {
   width: 453px;
