@@ -630,7 +630,7 @@ img {
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background: #fcfcfc;
   padding: 72px 24px 24px 24px;
-  transition: tranform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn {
@@ -772,18 +772,6 @@ img {
 }
 
 .check-text span {
-  width: 16px;
-  height: 16px;
-  border-radius: 2px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-  background-color: transparent;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .agree-icon {
@@ -804,7 +792,18 @@ img {
   border: none;
 }
 .span {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  background-color: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Button */
 
