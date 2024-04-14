@@ -726,7 +726,7 @@ img {
 /* Text Area */
 
 .textarea-div {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .textarea {
@@ -752,6 +752,7 @@ img {
 /* CheckBox */
 
 .checkbox {
+  margin-bottom: 24px;
 }
 
 .modal-check {
@@ -800,6 +801,7 @@ img {
   border: none;
 }
 .span {
+  display: inline-flex;
 }
 /* Button */
 
